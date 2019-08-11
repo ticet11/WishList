@@ -87,7 +87,7 @@ function fetchBookmarks() {
     var image = bookmarks[i].image;
 
     bookmarksResults.innerHTML += '<div class="well">' +
-      '<h3>' + name +
+      '<h3><a target="_blank" href="' + addhttp(url) + '">' + name + '</a>' +
       ' <a target="_blank" href="' + addhttp(url) + '"><img width=100% src="' + image + '"></a> ' +
       ' <a class="btn btn-default" target="_blank" href="' + addhttp(url) + '">Visit</a> ' +
       ' <a onclick="deleteBookmark(\'' + url + '\')" class="btn btn-danger" href="#">Delete</a> ' +

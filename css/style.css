@@ -4,6 +4,23 @@ body {
   padding-bottom: 20px;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color: black;
+     text-decoration:none;
+     cursor:pointer;
+}
+
+/* Remove blue color from item names
+.itemName {
+  text-decoration: none;
+} */
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -75,6 +92,7 @@ body {
   }
 }
 
+/* Code no longer included in bootstrap css */
 .well {
     min-height: 20px;
     padding: 19px;
